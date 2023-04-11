@@ -9,12 +9,11 @@ import javax.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
 @Entity
 public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private int id;
     
     @NotNull
     @Size(min = 1, max = 50, message = "no cumple con la longitud")
@@ -23,6 +22,92 @@ public class Persona {
     @Size(min = 1, max = 50, message = "no cumple con la longitud")
     private String apellido;
     @NotNull
-    private String img;
+    private String linkImgPerfil;
+    @NotNull
+    private String linkImgBanner;
+    @NotNull
+    private String profesion;
+    @NotNull
+    private String ubicacion;
+    @NotNull
+    private String acercaDeMi;
+
+    public Persona() {
+    }
+    
+    public Persona(String nombre, String apellido, String linkImgPerfil, String linkImgBanner, String profesion, String ubicacion, String acercaDeMi) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.linkImgPerfil = linkImgPerfil;
+        this.linkImgBanner = linkImgBanner;
+        this.profesion = profesion;
+        this.ubicacion = ubicacion;
+        this.acercaDeMi = acercaDeMi;
+    }
+    
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getLinkImgPerfil() {
+        return linkImgPerfil;
+    }
+
+    public void setLinkImgPerfil(String linkImgPerfil) {
+        this.linkImgPerfil = linkImgPerfil;
+    }
+
+    public String getLinkImgBanner() {
+        return linkImgBanner;
+    }
+
+    public void setLinkImgBanner(String linkImgBanner) {
+        this.linkImgBanner = linkImgBanner;
+    }
+
+    public String getProfesion() {
+        return profesion;
+    }
+
+    public void setProfesion(String profesion) {
+        this.profesion = profesion;
+    }
+
+    public String getUbicacion() {
+        return ubicacion;
+    }
+
+    public void setUbicacion(String ubicacion) {
+        this.ubicacion = ubicacion;
+    }
+
+    public String getAcercaDeMi() {
+        return acercaDeMi;
+    }
+
+    public void setAcercaDeMi(String acercaDeMi) {
+        this.acercaDeMi = acercaDeMi;
+    }
+    
     
 }
