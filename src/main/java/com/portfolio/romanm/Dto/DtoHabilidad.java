@@ -8,6 +8,9 @@ public class DtoHabilidad {
     @NotBlank
     private int porcentajeHab;
 
+    public DtoHabilidad() {
+    }
+    
     public DtoHabilidad(String nombreHab, int porcentajeHab) {
         this.nombreHab = nombreHab;
         this.porcentajeHab = porcentajeHab;

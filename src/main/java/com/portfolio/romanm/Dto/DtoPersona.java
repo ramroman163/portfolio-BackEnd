@@ -21,11 +21,14 @@ public class DtoPersona {
     private String ubicacion;
     @NotBlank
     private String acercaDeMi;
+    
+    private String telefono;
+    private String email;
 
     public DtoPersona() {
     }
 
-    public DtoPersona(String nombre, String apellido, String linkImgPerfil, String linkImgBanner, String profesion, String ubicacion, String acercaDeMi) {
+    public DtoPersona(String nombre, String apellido, String linkImgPerfil, String linkImgBanner, String profesion, String ubicacion, String acercaDeMi, String telefono, String email) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.linkImgPerfil = linkImgPerfil;
@@ -33,6 +36,8 @@ public class DtoPersona {
         this.profesion = profesion;
         this.ubicacion = ubicacion;
         this.acercaDeMi = acercaDeMi;
+        this.telefono = telefono;
+        this.email = email;
     }
 
     public String getNombre() {
@@ -89,5 +94,21 @@ public class DtoPersona {
 
     public void setAcercaDeMi(String acercaDeMi) {
         this.acercaDeMi = acercaDeMi;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

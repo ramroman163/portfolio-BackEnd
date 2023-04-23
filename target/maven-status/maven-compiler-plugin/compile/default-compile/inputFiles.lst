@@ -9,8 +9,6 @@ D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\Repository\IUsuarioR
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Dto\DtoPersona.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\jwt\JwtEntryPoint.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Entity\Educacion.java
-D:\roman\romanm\src\main\java\com\portfolio\romanm\Controller\PersonaController.java
-D:\roman\romanm\src\main\java\com\portfolio\romanm\Repository\IPersonaRepository.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\Enums\RolNombre.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\Entity\UsuarioPrincipal.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\Controller\Mensaje.java
@@ -30,8 +28,8 @@ D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\Dto\JwtDto.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\Entity\Usuario.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\Service\UserDetailsImpl.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Repository\RExperiencia.java
+D:\roman\romanm\src\main\java\com\portfolio\romanm\Repository\RPersona.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Controller\CProyecto.java
-D:\roman\romanm\src\main\java\com\portfolio\romanm\Service\ImpPersonaService.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Entity\Habilidad.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Controller\CExperiencia.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\Repository\IRolRepository.java
@@ -41,5 +39,7 @@ D:\roman\romanm\src\main\java\com\portfolio\romanm\Dto\DtoExperiencia.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Entity\Persona.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\jwt\JwtProvider.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Dto\DtoProyecto.java
+D:\roman\romanm\src\main\java\com\portfolio\romanm\Service\SPersona.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\WebConfig.java
+D:\roman\romanm\src\main\java\com\portfolio\romanm\Controller\CPersona.java
 D:\roman\romanm\src\main\java\com\portfolio\romanm\Security\Service\RolService.java
